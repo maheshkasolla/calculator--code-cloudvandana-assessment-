@@ -1,0 +1,46 @@
+.bg-container {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.inputContent {
+    width: 210px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+.Ac-container {
+    text-align: center;
+    width: 73px;
+    background-color: blue;
+}
+
+.number-container {
+    text-align: center;
+    width: 73px;
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+}
+
+.botton-container {
+    display: flex;
+
+}
+
+.symbol-container {
+    text-align: center;
+    width: 73px;
+    background-color: pink;
+    color: white;
+    margin: 0px;
+}

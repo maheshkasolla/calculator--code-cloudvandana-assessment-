@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+       <div class="bg-container">
+        <h1>User Friendly Calculator</h1>
+        <div class="top">
+            <input type="text" id="display" class="inputContent" placeholder="enter number" />
+            <div>
+                <input type="button" value="AC" onclick="clearDisplay()" class="Ac-container">
+            </div>
+        </div>
+        <div class="botton-container">
+            <div>
+                <div class="container">
+                    <input type="button" value="7" onclick="appendToDisplay('7')" class="number-container">
+                    <input type="button" value="8" onclick="appendToDisplay('8')" class="number-container">
+                    <input type="button" value="9" onclick="appendToDisplay('9')" class="number-container">
+                </div>
+                <div class="container">
+                    <input type="button" value="4" onclick="appendToDisplay('4')" class="number-container">
+                    <input type="button" value="5" onclick="appendToDisplay('5')" class="number-container">
+                    <input type="button" value="6" onclick="appendToDisplay('6')" class="number-container">
+                </div>
+                <div class="container">
+                    <input type="button" value="1" onclick="appendToDisplay('1')" class="number-container">
+                    <input type="button" value="2" onclick="appendToDisplay('2')" class="number-container">
+                    <input type="button" value="3" onclick="appendToDisplay('3')" class="number-container">
+                </div>
+                <div class="container">
+
+                    <input type="button" value="0" onclick="appendToDisplay('0')" class="number-container">
+                    <input type="button" value="." onclick="appendToDisplay('.')" class="number-container">
+                    <input type="button" value="=" onclick="calculate()" class="number-container">
+                </div>
+            </div>
+            <div class="symbol-container">
+                <input type="button" value="+" onclick="appendToDisplay('+')" class="number-container">
+                <input type="button" value="-" onclick="appendToDisplay('-')" class="number-container">
+                <input type="button" value="*" onclick="appendToDisplay('*')" class="number-container">
+                <input type="button" value="/" onclick="appendToDisplay('/')" class="number-container">
+            </div>
+        </div>
+    </div>
+      <script src="script.js"></script>
+  </body>
+</html>
